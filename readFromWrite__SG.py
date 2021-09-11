@@ -1,5 +1,5 @@
-#### read for write for WriteTank gizmo####
-#### it uses clique library to find seq ranges####
+#### Read from Write for Shotgun WriteTank gizmo####
+#### it uses clique library to find sequnce ranges####
 
 
 
