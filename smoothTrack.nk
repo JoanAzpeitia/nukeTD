@@ -1,0 +1,26 @@
+set cut_paste_input [stack 0]
+version 11.3 v1
+push $cut_paste_input
+Transform {
+translate {{track.x*multiplyTRS} {track.y*multiplyTRS}}
+rotate {{rotate_1*multiplyTRS}}
+scale {{1+multiplyTRS*(scale_1-1)}}
+center {2224 1548}
+name Transform6
+label "MULTIPLY KNOB GIZMO"
+note_font "Verdana Bold Bold Bold Bold"
+selected true
+xpos 5927
+ypos -1524
+addUserKnob {20 User}
+addUserKnob {12 track l originalTrack}
+addUserKnob {7 rotate_1 l originalRotation}
+rotate_1 1
+addUserKnob {14 scale_1 l originalScale R 0 100}
+scale_1 1
+addUserKnob {26 _1 l "" +STARTLINE}
+addUserKnob {7 multiplyTRS}
+multiplyTRS 0.5
+addUserKnob {26 ""}
+addUserKnob {12 originalCenter}
+}
