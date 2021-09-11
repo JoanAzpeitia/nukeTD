@@ -1,3 +1,5 @@
+####automatization of writeGeo render node for nuke, rendering ABC or FBX####
+
 import nuke
 import os
 
